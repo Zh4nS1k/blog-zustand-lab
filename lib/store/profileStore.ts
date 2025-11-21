@@ -17,10 +17,10 @@ type ProfileState = {
 
 export const useProfileStore = create<ProfileState>((set) => ({
   profile: {
-    avatar: "https://i.pravatar.cc/150?img=30",
-    firstName: "Alua",
-    lastName: "Zholdykan",
-    birthDate: "2005-07-15",
+    avatar: "https://i.pravatar.cc/150",
+    firstName: "Zhanserik",
+    lastName: "Zhanturin",
+    birthDate: "2005-06-21",
     role: "developer",
   },
 

@@ -17,7 +17,7 @@ export const posts: Post[] = [
     title: "Пересел на App Router и понял, что жил в матрице",
     author: {
       name: "Данияр К.",
-      avatar: "https://i.pravatar.cc/100?img=42",
+      avatar: "https://i.pravatar.cc/100?img=12",
     },
     date: "2025-11-20",
     previewText:
@@ -59,7 +59,7 @@ export const posts: Post[] = [
     title: "tRPC в 2025 году — это просто нечестно",
     author: {
       name: "Рустем А.",
-      avatar: "https://i.pravatar.cc/100?img=29",
+      avatar: "https://i.pravatar.cc/100?img=17",
     },
     date: "2025-11-17",
     previewText:
