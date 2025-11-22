@@ -15,9 +15,6 @@ export const useUIStore = create<UIState>((set) => ({
   theme: 'light',
   language: 'ru',
   setTheme: (theme) => set({ theme }),
-  toggleTheme: () =>
-    set((state) => ({
-      theme: state.theme === 'light' ? 'dark' : 'light',
-    })),
+  toggleTheme: () => set((state) => ({ theme: state.theme === 'light' ? 'dark' : 'light'})),
   setLanguage: (language) => set({ language }),
 }));

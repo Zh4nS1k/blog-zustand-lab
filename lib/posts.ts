@@ -17,21 +17,21 @@ export const posts: Post[] = [
     title: "Пересел на App Router и понял, что жил в матрице",
     author: {
       name: "Данияр К.",
-      avatar: "https://i.pravatar.cc/100?img=12",
+      avatar: "https://i.pravatar.cc/1000?img=12",
     },
     date: "2025-11-20",
     previewText:
       "Ребят, я три года ковырял pages directory, а теперь открыл app и чувствую себя идиотом. Как я вообще раньше без loading.tsx и layout.tsx жил...",
     fullText:
       "Всё просто лежит по папкам, параллельные роуты — это теперь просто две папки рядом, стримить данные — пара строк. Единственный минус: пока ловишь себя на том, что пытаешься засунуть useEffect в Server Component и сидишь потом 15 минут в ступоре. Но это уже мои кривые руки. Короче, если ещё не пробовали — бросайте всё и идите в app directory прямо сейчас.",
-    image: "https://picsum.photos/seed/appr1/600/300",
+    image: "https://picsum.photos/seed/appr1/1000/500",
   },
   {
     id: 2,
     title: "Zustand против Redux Toolkit в 2025 году — бойня закончилась",
     author: {
       name: "Темирлан",
-      avatar: "https://i.pravatar.cc/100?img=38",
+      avatar: "https://i.pravatar.cc/1000?img=38",
     },
     date: "2025-11-18",
     previewText:
@@ -45,7 +45,7 @@ export const posts: Post[] = [
     title: "Next.js 15 + Turbopack = билд за 8 секунд вместо 2 минут",
     author: {
       name: "Ербол",
-      avatar: "https://i.pravatar.cc/100?img=55",
+      avatar: "https://i.pravatar.cc/1000?img=55",
     },
     date: "2025-11-21",
     previewText:
@@ -59,7 +59,7 @@ export const posts: Post[] = [
     title: "tRPC в 2025 году — это просто нечестно",
     author: {
       name: "Рустем А.",
-      avatar: "https://i.pravatar.cc/100?img=17",
+      avatar: "https://i.pravatar.cc/1000?img=17",
     },
     date: "2025-11-17",
     previewText:
@@ -73,7 +73,7 @@ export const posts: Post[] = [
     title: "Нашёл способ делать mutate прямо из Server Components",
     author: {
       name: "Санжар",
-      avatar: "https://i.pravatar.cc/100?img=61",
+      avatar: "https://i.pravatar.cc/1000?img=61",
     },
     date: "2025-11-19",
     previewText:
@@ -87,7 +87,7 @@ export const posts: Post[] = [
     title: "Next.js 15 ругается на useState в серверных компонентах на этапе билда",
     author: {
       name: "Алмат Б.",
-      avatar: "https://i.pravatar.cc/100?img=14",
+      avatar: "https://i.pravatar.cc/1000?img=14",
     },
     date: "2025-11-16",
     previewText:
